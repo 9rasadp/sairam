@@ -1,0 +1,1283 @@
+/*img {*/
+    /*-webkit-transform: scale(0.5); *//* Saf3.1+, Chrome */
+    /*-moz-transform: scale(0.5); *//* FF3.5+ */
+    /*-ms-transform: scale(0.5); *//* IE9 */
+    /*-o-transform: scale(0.5); *//* Opera 10.5+ */
+    /*transform: scale(0.5);*/
+    /* IE6–IE9 */
+    /*filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');*/
+/*}​*/
+
+.dropshadow{
+    box-shadow: 0px 3px 0px 0px #D3D3D3;
+}
+
+[id^="leader-"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+    border-radius: 2px;
+}
+
+#leader-1{
+    background-color: #227280;
+}
+#leader-2{
+    background-color: #48929e;
+}
+#leader-3{
+    background-color: #6ab0bc;
+}
+#leader-4{
+    background-color: #74cad8;
+}
+#leader-5{
+    background-color: #92dde9;
+}
+
+.leader-count{
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+    color: white;
+}
+
+#label-list{
+    margin: 0px 0px 20px 0px;
+}
+
+.admonishment{
+    font-size: 12px;
+
+}
+.gitbutton {
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin: 3px 6px 3px 0px;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+#project-activity-feed .gitbutton {
+    font-size: 10px;
+    padding: 0 3px;
+    line-height: 16px;
+    border-radius: 3px;
+}
+
+.notebook-label{
+    float: right;
+    margin-left: 3px;
+    margin-top: 24px;
+}
+
+.wiki-label{
+    float: right;
+    margin-left: 8px;
+    margin-top: 24px;
+}
+
+.molecule-label{
+    float: right;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+.about-target{
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.big-button-container{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.big-button{
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 85px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+    font-size: 18px;
+}
+
+.big-button:hover{
+    background-color: #FFF;
+}
+
+.big-button.set{
+    background-color: #6AA7AE;
+    color: white;
+}
+
+#phone-leaderboard{
+    display: none;
+}
+
+#phone-leader-feed{
+    display: none;
+    margin: 20px auto 20px auto;
+    font-size: 14px;
+    width: 73%;
+}
+
+#phone-leader-feed > div{
+    text-align: left;
+    color: black;
+}
+
+.little-button-container{
+    display: none;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.little-button{
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 8%;
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+    text-align: center;
+}
+
+.little-button:hover{
+    background-color: #FFF;
+}
+
+.little-button img{
+    width: 35px;
+    padding: 20px 18px;
+}
+
+.little-button.set{
+    background-color: #6AA7AE;
+}
+
+.inner-button{
+    margin: 0px auto;
+    display: block;
+    line-height: 85px;
+    text-align: center;
+}
+.inner-button span{
+    margin-left: 10px;
+}
+
+.activity-image{
+    width: 50px;
+}
+.join-image{
+    width: 50px;
+}
+
+.meet-image{
+    width: 50px;
+}
+
+.created_date {
+    color: black;
+    margin: 6px 0px;
+}
+
+.created_date img{
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 6px;
+}
+
+img.project-activity-image{
+    display: none !important
+}
+
+.project-activity-item, .title, .indented{
+    margin-left: 0px !important
+}
+
+.indented{
+    margin-bottom: 30px !important;
+}
+
+.indented .tog{
+    color: #0088CC;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+    display: block;
+}
+.indented .tog:hover{
+    color: #0088CC;
+    text-decoration: underline;
+ }
+hr{
+    height: 1px;
+    color: #F23D2E;
+    background: #F23D2E;
+    font-size: 0;
+    border: 0;
+}
+
+/*Hide mobile view normally*/
+
+.phone{
+    display: none;
+}
+
+#linkspan {
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    padding-left: 35px
+}
+
+#web-head-background{
+    display: block;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    background-color: #ebf6f8;
+    background-size: 70px 70px;
+    font-size: 145%;
+    vertical-align: 60%;
+    width: 100%;
+    height: 142px;
+}
+
+#web-title{
+    margin-left: 30px;
+    width: 65%;
+    vertical-align: top;
+    margin-top: 26px;
+}
+
+.web{
+    display: block;
+}
+
+#mobile-twitter-feed {
+    display: none;
+}
+
+#mobile-twitter-lead {
+    display: none;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#team_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#group_photo_image {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin-top: 1%;
+}
+
+.activity-open {
+    background-image: url("../images/open.gif");
+    background-repeat: no-repeat;
+}
+
+.activity-closed {
+    background-image: url("../images/closed.gif");
+    background-repeat: no-repeat;
+}
+
+.activity-comment {
+    background-image: url("../images/Comment.gif");
+    background-repeat: no-repeat;
+}
+
+#title-block {
+    margin-top: 1%;
+    margin-left: 4%;
+    width: 75%;
+}
+
+#tag-line {
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+img.project-activity-image {
+    /*height: 145%;*/
+    margin-top: 0px;
+    margin-left: -55px;
+}
+
+.see-more {
+    /*margin-left: 4%;*/
+    margin-bottom: 2%;
+}
+
+.see-more a, .see-more a:hover {
+    color: black;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.center-leader {
+    font-size: 145%;
+    font-weight: bold;
+    margin-top: 3%;
+    /*margin-left: 4%;*/
+    margin-bottom: 1%;
+}
+
+#project-activity, #meet-the-team, #join-the-team {
+    padding: 10px;
+}
+
+.project-activity-item {
+    display: block;
+    margin-left: 10%;
+}
+
+.project-activity-item a:hover {
+    text-decoration: underline;
+}
+
+#team-members{
+    margin-left: -2%;
+}
+
+#team-members .member {
+    width: 115px;
+    margin: 10px 1%;
+    float: left;
+    min-height: 160px;
+    text-align: center;
+}
+
+#team-members img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.discipline-chemistry {
+    border: 3px solid #09b2ef;
+}
+
+.disciplines {
+}
+
+.disciplines1 {
+    margin-left: 52px;
+}
+
+.disciplines2 {
+    margin-left: 45px;
+}
+
+.disciplines3 {
+    margin-left: 37px;
+}
+
+.disciplines4 {
+    margin-left: 29px;
+}
+
+.disciplines5 {
+    margin-left: 22px;
+}
+
+.discipline-container{
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 10px;
+}
+
+span[class^="indicator-"] {
+    float: right;
+    width: 10px;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.indicator-chemistry {
+    background: #ec3633;
+}
+
+.indicator-administration {
+    background: #f69431;
+}
+
+.indicator-biology {
+    background: #33ccff;
+}
+
+.indicator-informatics {
+    background: #3d8016;
+}
+
+.indicator-consulting {
+    background: #833580;
+}
+
+.legend {
+    display: block;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 32px;
+    font-size: 145%;
+    font-weight: bold;
+}
+
+[class^="legend-"] {
+    float: left;
+    margin-left: 1px;
+    text-align: center;
+    color: #e93631;
+    font-size: small;
+    border-radius: 3px;
+}
+
+.legend-chemistry {
+    color: #ec3633;
+    margin-right: 7px;
+}
+
+.legend-administration {
+    color: #f69431;
+    margin-right: 0px;
+}
+
+.legend-biology {
+    color: #33ccff;
+    margin-right: 7px;
+}
+
+.legend-informatics {
+    color: #3d8016;
+    margin-right: 7px;
+}
+
+.legend-consulting {
+    width: 70px;
+    color: #833580;
+    margin-right: 7px;
+}
+
+[class^="legend-indicator"] {
+    float: left;
+    height: 10px;
+    width: 10px;
+    margin-top: 5px;
+    margin-right: 0px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.legend-indicator-chemistry{
+    background: #ec3633;
+}
+
+.legend-indicator-biology{
+    background: #33ccff;
+}
+
+.legend-indicator-informatics{
+    background: #3d8016;
+}
+
+.legend-indicator-consulting{
+    background: #833580;
+}
+
+.legend-indicator-administration{
+    background: #f69431;
+}
+
+.key {
+    margin-left: 40px;
+}
+
+.discipline-informatician {
+    border: 3px solid green;
+}
+
+.discipline-biologist {
+    border: 3px solid #e881a0;
+}
+
+.discipline- {
+    border: 3px solid yellow;
+}
+
+#about-the-team {
+    display: inline-block;
+    margin-top: 2%;
+}
+
+#web-logo {
+    width: 150px;
+    margin-top: -9px;
+    margin-left: 60px;
+}
+
+.para {
+    margin-left: 8px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.logo-text {
+    margin-top: 1%;
+    font-size: 320%;
+}
+
+.outdent img {
+    width: 5%;
+}
+
+.center-section {
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.center-section h3 {
+    padding-left: 145%;
+}
+
+.center-section .center-content {
+    /*display: inline-block;*/
+    /*margin-top: 5%;*/
+    margin-right: 5%;
+    margin-bottom: 5%;
+    /*margin-left: 5%;*/
+}
+
+.center-section img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+.center-text {
+    margin-top: 5%;
+}
+
+#join-laws {
+    font-weight: bold;
+}
+
+.emphasis {
+    font-size: 120%;
+    color: #B0DFE4;
+}
+
+#twitter-lead {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 74px;
+    margin-bottom: 18px;
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    color: #D3D3D3;
+}
+
+#social {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+#social a {
+    margin: 0 5px;
+}
+
+.social-icon:hover {
+    text-decoration: none;
+}
+
+#social a:hover {
+    text-decoration: none;
+}
+
+.social-img{
+    margin-left: 5px;
+    margin-right: 30px;
+    width: 39px;
+    height: 39px;
+}
+
+.notebook-img{
+    height: 80px;
+    width: 68px;
+}
+
+.wiki-img{
+    height: 64px;
+    width: 64px;
+}
+
+.molecule-img{
+    height: 60px;
+    width: 60px;
+}
+
+.also-check-out {
+    display: block;
+    color: #D3D3D3;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 26px;
+}
+
+#leaderboard{
+    display: block;
+    color: #D3D3D3;
+    font-size: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 54px;
+    margin-bottom: 15px;
+}
+
+#leader-feed{
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    margin: 30px auto;
+    width: 73%;
+}
+
+.off-page{
+    display: block;
+    font-weight:500;
+    margin-top: 15px;
+}
+
+.off-page-image{
+    float: left;
+}
+#phone-links {
+    display: none;
+}
+
+#tiny-links {
+    display: none;
+}
+
+.tiny-row-social{
+    display: none;
+}
+
+.tiny-row-external-links{
+    display: none;
+}
+
+.phone-row-meet-join-activity, .phone-row-external-links, .phone-row-social, .littler{
+    display: none;
+}
+
+.links {
+    margin-bottom: 0;
+}
+
+.links a {
+    color: #0088CC;
+}
+
+.links {
+    margin-left: 40%;
+}
+
+#link-text-activity{
+    float: left;
+}
+
+#link-text-join{
+    display: inline;
+    text-align: center;
+    width: 110px;
+    float: none;
+}
+
+#link-text-meet {
+    float: right;
+}
+
+#link-text-meet {
+    margin-right: 0%;
+}
+.intro {
+    display: block;
+    margin-top: 20px;
+    /*margin-bottom: 5%;*/
+    /*margin-left: 30px;*/
+}
+
+.intro img.arrow {
+    float: left;
+    margin-left: 10px;
+}
+
+#twitter-feed {
+    text-align: left;
+    float: left;
+    /*margin-top: 0px;*/
+}
+
+#twitter-feed p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+#twitter-feed .tweeter-info {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+hr.tweet{
+    color: #D3D3D3;
+    background: #D3D3D3;
+}
+
+#spinner {
+    float: none;
+    margin: 0 auto;
+}
+
+.gray {
+    color: gray;
+}
+
+.left-nav {
+    margin-top: 3%;
+    text-align: left;
+    font-size: 16px;
+}
+
+.left-nav img {
+    margin-right: 9px;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    line-height: 13px;
+}
+
+.discipline {
+}
+
+.affiliation {
+    font-size: small;
+    margin-top: 10px;
+    line-height: 10px;
+}
+
+.title {
+    display: inline-block;
+    color: #0088CC;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.sponsor-row {
+    margin-left: -18px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.sponsor-image {
+    height: 110px;
+    width: 220px;
+}
+
+.indented {
+    margin-bottom: 4%;
+    margin-left: 6%;
+}
+
+.indented a {
+    color: black;
+    text-decoration: none;
+}
+
+.overflow-wrap{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.indented a:hover {
+    text-decoration: none;
+    color: black;
+    overflow-wrap: break-word;
+}
+
+/* Handling for mobile devices*/
+
+/* iPad (original and Retina) */
+
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+
+    .emphasis {
+        font-size: 80%;
+    }
+
+    .legend {
+        margin-left: 10px;
+    }
+
+    .legend-chemistry, .legend-biology, .legend-administration, .legend-consulting, .legend-informatics {
+        font-size: 10px;
+        margin-right: 15px;
+        width: 13%;
+    }
+
+
+    .legend-indicator-chemistry, .legend-indicator-biology, .legend-indicator-administration, .legend-indicator-consulting, .legend-indicator-informatics{
+       /*display: none;*/
+    }
+
+    #twitter-lead {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #twitter-feed {
+        width: 100px;
+        float: left;
+        /*margin-top: 0px;*/
+        margin-left: 2px;
+    }
+
+    .social-img{
+        margin-right: 5px;
+        margin-left: 0px;
+        width: 39px;
+        height: 39px;
+    }
+
+    #social {
+        width: 100%;
+        margin-top: 22px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    #social > a > img{
+    }
+
+    #web-head-background{
+        display: block;
+        margin-bottom: 0px;
+        padding-top: 15px;
+        background-color: #ebf6f8;
+        background-size: 70px 70px;
+        font-size: 145%;
+        vertical-align: 60%;
+        width: 100%;
+        height: 133px;
+    }
+
+    #web-title{
+        margin-left: 15px;
+        width: 70%;
+    }
+
+    #web-logo {
+        width: 150px;
+        margin-top: -9px;
+        margin-left: 0px;
+    / / TOD : WAS - 25 %;    TO FLOAT UPWARD
+    }
+
+    .big-button{
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 10px;
+        height: 85px;
+        width: 150px;
+        border-radius: 5px;
+        background-color: #F4F4F4;
+        font-size: 12px;
+    }
+}
+
+@media  screen and (min-width: 767px) and (max-width: 1000px){
+    .notebook-label{
+        font-size: 65%;
+    }
+    .molecule-label{
+        font-size: 65%;
+    }
+    .wiki-label{
+        font-size: 65%;
+    }
+}
+
+
+@media  screen and (min-width:1000px) and (max-width: 1200px){
+    .big-button{
+        width: 200px;
+        font-size: 10px;
+    }
+    .activity-image{
+        width: 25px;
+    }
+    .join-image{
+        width: 25px;
+    }
+    .meet-image{
+        width: 25px;
+    }
+}
+
+@media  screen and (min-width:768px) and (max-width: 1000px){
+    .big-button{
+        width: 150px;
+        font-size: 10px;
+    }
+    .activity-image{
+        width: 25px;
+    }
+    .join-image{
+        width: 25px;
+    }
+    .meet-image{
+        width: 25px;
+    }
+}
+
+/*Tiny browser width and iPhone */
+@media  screen and (min-width: 0px) and (max-width: 767px),
+screen and (max-device-width: 640px) and (max-device-height: 960px){
+
+    .phone{
+        display: block;
+    }
+
+    .big-button-container{
+        display: none;
+    }
+
+    .little-button-container{
+        display: block;
+    }
+    #phone-leaderboard{
+        display: block;
+        color: #D3D3D3;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    #phone-leader-feed{
+        display: block;
+    }
+
+    .little-button{
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 5%;
+        height: 70px;
+        width: 70px;
+        border-radius: 5px;
+        background-color: #F4F4F4;
+        text-align: center;
+
+    }
+    .created_date img{
+        padding-left: 12px;
+        padding-right: 4px;
+    }
+
+    .web{
+        display: none;
+    }
+
+    #web-head-background{
+        margin: 0 -20px;
+        padding: 30px 20px 0 20px;
+        height: auto;
+    }
+
+    .left-nav{
+        display: none;
+    }
+
+    #web-logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .para {
+        /*margin-left: 10%;*/
+    }
+
+    .intro {
+        margin-bottom: 1%;
+    }
+
+    #web-title{
+        margin: 20px auto;
+        width: 280px;
+        display: block;
+    }
+
+    #tag-line {
+        font-size: 70%;
+    }
+
+    #thanks-leader {
+        width: 90%;
+    }
+
+    img.project-activity-image {
+        margin-top: 0px;
+        margin-left: -30px;
+    }
+
+    #sponsors {
+        width: 85%;
+    }
+    .sponsor-row {
+        margin-left: 10%;
+    }
+
+    .sponsor-image img {
+        margin-left: 0;
+    }
+
+    #team-members .member {
+        width: 100px;
+        margin: 10px 1px;
+        float: left;
+        min-height: 160px;
+        text-align: center;
+    }
+
+    .legend {
+        margin-left: 0px;
+    }
+
+    .legend-chemistry, .legend-biology, .legend-administration, .legend-consulting, .legend-informatics {
+        margin-top: 5px;
+        margin-right: 15px;
+        font-size: 7px;
+    }
+
+    .legend-chemistry { width: 35px; margin-left: -14px; }
+    .legend-biology { width: 33px; margin-left: -18px;}
+    .legend-administration { width: 49px; margin-left: -14px;}
+    .legend-consulting { width: 38px; margin-left: -14px; }
+    .legend-informatics  { width: 43px;  margin-left: -16px; }
+
+
+    .legend-indicator-chemistry, .legend-indicator-biology, .legend-indicator-administration, .legend-indicator-consulting, .legend-indicator-informatics{
+        border-radius: 2px;
+        margin-top: 0;
+    }
+
+    #phone-links {
+        display: none;
+    }
+
+    .phone-row-social {
+        display: none;
+    }
+
+    .phone-row-external-links {
+        display: block;
+        text-align: center;
+    }
+
+    .phone-row-meet-join-activity {
+        display: none;
+        text-align: center;
+    }
+
+    .phone-row-meet-join-activity phone-link {
+        text-align: center;
+    }
+
+    #linkspan {
+        text-align: center;
+    }
+
+    .tiny-row-social{
+        display: block;
+        text-align: center;
+    }
+
+    #tiny-links{
+        display: block;
+    }
+
+    .tiny-row-external-links {
+        display: block;
+        text-align: center;
+    }
+
+    .tiny-row-meet-join-activity {
+        display: none;
+        text-align: center;
+    }
+
+    .tiny-row-meet-join-activity tiny-link {
+        text-align: center;
+    }
+
+    .tiny-link-chem-database{
+        text-align: center;
+        margin-top: 5%;
+        width: 25%;
+        float: left;
+        font-size: 100%;
+    }
+
+    .tiny-link-wiki {
+        text-align: center;
+        margin-top: 5%;
+        margin-right: 10%;
+        width: 25%;
+        float: left;
+        font-size: 100%;
+    }
+
+    .tiny-link-lab-notebook {
+        text-align: center;
+        margin-top: 5%;
+        margin-right: 10%;
+        width: 25%;
+        float: left;
+        font-size: 100%;
+    }
+
+    .tiny-row-social a img{
+        /*height: 50px;*/
+        /*width: 50px;*/
+    }
+
+    .phone-link {
+        text-align: center;
+        margin-top: 5%;
+        width: 32%;
+        float: right;
+        font-size: 100%;
+    }
+
+    .phone-link-right {
+        text-align: center;
+        margin-top: 5%;
+        width: 45%;
+        font-size: 100%;
+        float: right;
+    }
+    .phone-link-left {
+        text-align: center;
+        margin-top: 5%;
+        width: 45%;
+        font-size: 100%;
+        float: left;
+    }
+
+    .phone-link .link-title {
+        display: block;
+        text-align: center;
+        font-size: 60%;
+    }
+
+    .phone-link-left .link-title {
+        display: block;
+        text-align: center;
+        font-size: 60%;
+    }
+    .phone-link-right .link-title {
+        display: block;
+        text-align: center;
+        font-size: 60%;
+    }
+
+    div.phone-link a {
+        font-size: 80%;
+    }
+
+    .phone-link a img {
+        width: 30%
+    }
+    .phone-link-left a img {
+        width: 30%
+    }
+    .phone-link-right a img {
+        width: 30%
+    }
+
+    div.span8.center-section {
+        width: 100%;
+    }
+
+    span.span3.center {
+        display: none;
+    }
+
+    #social {
+        display: none;
+    }
+
+    #twitter-lead {
+        display: none;
+    }
+
+    #mobile-twitter-lead {
+        margin-top: 74px;
+        text-align: center;
+        display: block;
+    }
+
+    #mobile-twitter-feed {
+        display: block;
+    }
+
+    #twitter-feed {
+        display: none;
+    }
+}
